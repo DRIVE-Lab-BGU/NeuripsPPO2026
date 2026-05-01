@@ -12,7 +12,7 @@ os.environ.setdefault('MKL_NUM_THREADS', '1')
 os.environ.setdefault('KMP_AFFINITY', 'disabled')
 faulthandler.enable()
 
-import ExperimentManager
+from NeuripsPPO2026 import ExperimentManager
 import argparse
 
 parser = argparse.ArgumentParser()
